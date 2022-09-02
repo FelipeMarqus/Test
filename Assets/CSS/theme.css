@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-image: url('../Imgs/Fundo.jpg');
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+article {
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+aside {
+    justify-content: center;
+    display: flex;
+}
+section{
+    justify-content: center;
+    display: flex;
+}
+.container {
+    width: 1100px;
+    height: auto;
+    justify-content: space-between;
+}
+.title {
+    text-align: center;
+    background-color: rgb(241, 184, 40);
+    border-radius: 25px;
+}
+.title h1 {
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgba(168, 77, 11, 0.571);
+}
+.title h2 {
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgb(175, 104, 6);
+}
+.img_kazuki,.date_born {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date_born p {
+    background-color: rgb(241, 184, 40);
+    border-radius: 25px;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgba(168, 77, 11, 0.571);
+    padding: 5px;
+    margin-top: -5px;
+}
+article div img {
+    height: 400px;
+    width: 320px;
+    border-radius: 25px;
+}
+.carrer {
+    background-color: rgb(241, 184, 40);
+    border-radius: 25px;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgba(168, 77, 11, 0.571);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_yugi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.info {
+    display: flex;
+}
+.rodape {
+    background-color: rgb(241, 184, 40);
+    border-radius: 25px;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgba(168, 77, 11, 0.571);
+    padding: 10px;
+}
